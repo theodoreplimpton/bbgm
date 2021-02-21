@@ -278,7 +278,7 @@
 
 	"gameAttributes": [{
 			"key": "phase",
-			"value": 4
+			"value": 1
 		},
 		{
 			"key": "daysLeft",
@@ -286,19 +286,19 @@
 		},
 		{
 			"key": "season",
-			"value": 2020
+			"value": 1445
 		},
 		{
 			"key": "startingSeason",
-			"value": 2020
+			"value": 1445
 		},
 		{
 			"key": "numDraftRounds",
-			"value": 8
+			"value": 2
 		},
 		{
 			"key": "gracePeriodEnd",
-			"value": 2500
+			"value": 1447
 		},
 		{
 			"key": "confs",
