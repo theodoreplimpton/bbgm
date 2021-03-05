@@ -1,0 +1,37 @@
+{
+    "gameAttributes": {
+        "playerBioInfo": {
+            "default": {
+                "frequencies":{
+                  "Republic of NorthEastKorea": 17,
+                  "Chuckystan": 82983492834
+                },
+                "colleges": {
+                    "Duke": 1904,
+                    "UNC": 1483,
+                    "Harvard": 1,
+                    "Kentucky": 821,
+                    "Mercer County Community College": 282357234748732,
+                    "Yale": 1
+                },
+                "fractionSkipCollege": 0
+            }
+        },
+        "season": 2016,
+        "startingSeason": 2015,
+        
+        "confs": [
+            {"cid": 0, "name": "America - East Coast"},
+        ],
+        "divs": [
+            {"did": 0, "cid": 0, "name": "New Jersey"},
+
+        ],
+        "numPlayoffRounds": 2
+    },
+    "teams": [
+        {"tid": 0, "cid": 0, "did": 0, "region": "Princeton Academy", "name": "Hawks", "abbrev": "PASH", "pop": 2.2},
+        {"tid": 1, "cid": 0, "did": 0, "region": "Princeton Day School", "name": "Panthers", "abbrev": "PDS", "pop": 4.4},
+        {"tid": 2, "cid": 0, "did": 0, "region": "Hun School", "name": "Raiders", "abbrev": "HUN", "pop": 3.4}
+    ]
+}
