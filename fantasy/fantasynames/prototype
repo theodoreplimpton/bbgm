@@ -1,0 +1,39 @@
+{
+    "gameAttributes": {
+        "playerBioInfo": {
+            "countries": {
+                "Country1": {
+                    "first": {
+                        "George": 1,
+                        "John": 10,
+                        "Thomas": 2
+                    },
+                    "last": {
+                        "Washington": 1,
+                        "Adams": 5,
+                        "Jefferson": 1
+                    }
+                },
+                "Canada": {
+                    "first": {
+                        "Bob": 3,
+                        "Aaron": 1,
+                        "Chad": 1
+                    },
+                    "last": {
+                        "Smith": 1,
+                        "Jones": 5,
+                        "Anderson": 4
+                    },
+                }
+            },
+            "default": {
+                "fractionSkipCollege": 0,
+                "colleges": {
+                    "College 1": 1,
+                    "College 2": 1
+                }
+            }
+        }
+    }
+}
