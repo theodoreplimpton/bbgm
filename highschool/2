@@ -1,0 +1,19 @@
+{
+    "version": 43,
+    "gameAttributes": {
+        "playerBioInfo": {
+            "default": {
+                "fractionSkipCollege": 0,
+                "colleges": {
+                    "High School": 120
+            }
+        },                              
+        "phase": 0,
+        "daysLeft": 0,
+        "forceRetireAge": 22,
+        "numDraftRounds": 4,
+        "draftAges": [18,18],
+        "season": 1998
+        }  
+    }
+}
