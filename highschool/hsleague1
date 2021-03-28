@@ -1,0 +1,11 @@
+{
+    "version": 43,
+    "gameAttributes": {
+        "phase": 0,
+        "daysLeft": 0,
+        "forceRetireAge": 22,
+        "numDraftRounds": 4,
+        "draftAges": [18,18],
+        "season": 1998
+    }
+}
