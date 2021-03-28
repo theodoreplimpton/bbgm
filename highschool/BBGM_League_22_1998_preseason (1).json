@@ -1,0 +1,252 @@
+﻿{
+  "version": 43,
+  "meta": {
+    "phaseText": "1998 preseason",
+    "name": "League 22"
+  },
+  "trade": [
+    {
+      "rid": 0,
+      "teams": [
+        {
+          "tid": 6,
+          "pids": [],
+          "pidsExcluded": [],
+          "dpids": [],
+          "dpidsExcluded": []
+        },
+        {
+          "tid": 0,
+          "pids": [],
+          "pidsExcluded": [],
+          "dpids": [],
+          "dpidsExcluded": []
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "text": "Welcome to your new league!",
+      "type": "newLeague",
+      "tids": [
+        6
+      ],
+      "score": 20,
+      "season": 1998,
+      "eid": 0
+    }
+  ],
+  "gameAttributes": {
+    "aiJerseyRetirement": true,
+    "aiTradesFactor": 0,
+    "allStarGame": null,
+    "autoDeleteOldBoxScores": true,
+    "blockFactor": 1,
+    "brotherRate": 0.02,
+    "budget": false,
+    "challengeFiredLuxuryTax": false,
+    "challengeFiredMissPlayoffs": false,
+    "challengeLoseBestPlayer": false,
+    "challengeNoDraftPicks": false,
+    "challengeNoFreeAgents": false,
+    "challengeNoRatings": false,
+    "challengeNoTrades": false,
+    "challengeThanosMode": false,
+    "confs": [
+      {
+        "cid": 0,
+        "name": "Eastern Conference"
+      },
+      {
+        "cid": 1,
+        "name": "Western Conference"
+      }
+    ],
+    "daysLeft": 0,
+    "defaultStadiumCapacity": 25000,
+    "difficulty": 0,
+    "divs": [
+      {
+        "did": 0,
+        "cid": 0,
+        "name": "Atlantic"
+      },
+      {
+        "did": 1,
+        "cid": 0,
+        "name": "Central"
+      },
+      {
+        "did": 2,
+        "cid": 0,
+        "name": "Southeast"
+      },
+      {
+        "did": 3,
+        "cid": 1,
+        "name": "Southwest"
+      },
+      {
+        "did": 4,
+        "cid": 1,
+        "name": "Northwest"
+      },
+      {
+        "did": 5,
+        "cid": 1,
+        "name": "Pacific"
+      }
+    ],
+    "draftAges": [
+      18,
+      18
+    ],
+    "draftType": "random",
+    "easyDifficultyInPast": false,
+    "elam": false,
+    "elamASG": false,
+    "elamMinutes": 4,
+    "elamPoints": 8,
+    "equalizeRegions": false,
+    "expansionDraft": {
+      "phase": "setup"
+    },
+    "forceRetireAge": 22,
+    "foulRateFactor": 1,
+    "foulsNeededToFoulOut": 6,
+    "foulsUntilBonus": [
+      5,
+      4,
+      2
+    ],
+    "gameOver": false,
+    "godMode": true,
+    "godModeInPast": true,
+    "gracePeriodEnd": 2023,
+    "hardCap": false,
+    "homeCourtAdvantage": 3.5,
+    "injuryRate": 0.000125,
+    "luxuryPayroll": 0,
+    "luxuryTax": 0,
+    "maxContract": 0,
+    "maxContractLength": 4,
+    "maxRosterSize": 20,
+    "minContract": 0,
+    "minContractLength": 4,
+    "minPayroll": 0,
+    "minRosterSize": 5,
+    "numDraftRounds": 4,
+    "numGames": 35,
+    "numGamesPlayoffSeries": [
+      {
+        "start": null,
+        "value": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "start": 1998,
+        "value": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "numPeriods": 2,
+    "numPlayersOnCourt": 5,
+    "numPlayoffByes": [
+      {
+        "start": null,
+        "value": 0
+      },
+      {
+        "start": 1998,
+        "value": 2
+      }
+    ],
+    "numSeasonsFutureDraftPicks": 0,
+    "numTeams": 30,
+    "orbFactor": 1.02,
+    "otherTeamsWantToHire": false,
+    "otl": [
+      {
+        "start": null,
+        "value": false
+      }
+    ],
+    "pace": 125,
+    "phase": 0,
+    "playerBioInfo": {
+      "default": {
+        "fractionSkipCollege": 0,
+        "colleges": {
+          "High School": 120
+        }
+      }
+    },
+    "playerMoodTraits": false,
+    "playersRefuseToNegotiate": false,
+    "pointsFormula": [
+      {
+        "start": null,
+        "value": ""
+      }
+    ],
+    "quarterLength": 20,
+    "realPlayerDeterminism": 0,
+    "rookieContractLengths": [
+      4
+    ],
+    "rookiesCanRefuse": false,
+    "salaryCap": 0,
+    "season": 1998,
+    "sonRate": 0.02,
+    "spectator": false,
+    "startingSeason": 2021,
+    "stealFactor": 1,
+    "stopOnInjury": false,
+    "stopOnInjuryGames": 20,
+    "threePointAccuracyFactor": 0.95,
+    "threePointTendencyFactor": 1.2,
+    "threePointers": true,
+    "tiebreakers": [
+      {
+        "start": null,
+        "value": [
+          "headToHeadRecord",
+          "divWinner",
+          "divRecordIfSame",
+          "confRecordIfSame",
+          "marginOfVictory",
+          "coinFlip"
+        ]
+      }
+    ],
+    "ties": [
+      {
+        "start": null,
+        "value": false
+      }
+    ],
+    "tradeDeadline": 0,
+    "tragicDeathRate": 0.0002,
+    "turnoverFactor": 1.05,
+    "twoPointAccuracyFactor": 0.95,
+    "userTid": [
+      {
+        "start": null,
+        "value": 6
+      }
+    ],
+    "userTids": [
+      6
+    ]
+  }
+}
