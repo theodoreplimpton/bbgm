@@ -4,36 +4,25 @@
     "phaseText": "1998 preseason",
     "name": "League 22"
   },
-  "trade": [
-    {
-      "rid": 0,
-      "teams": [
-        {
-          "tid": 6,
-          "pids": [],
-          "pidsExcluded": [],
-          "dpids": [],
-          "dpidsExcluded": []
-        },
-        {
-          "tid": 0,
-          "pids": [],
-          "pidsExcluded": [],
-          "dpids": [],
-          "dpidsExcluded": []
-        }
-      ]
-    }
-  ],
   "events": [
     {
-      "text": "Welcome to your new league!",
+      "text": "The year is 1998. You have to lead your team to dominate the NCAA Men's college tournament. Warning: This will be difficult. Good Luck!",
       "type": "newLeague",
       "tids": [
         6
       ],
-      "score": 20,
+      "score": 200,
       "season": 1998,
+      "eid": 0
+    },
+    {
+      "text": "The elite heads of the NCAA have decided to abolish the one game playoff tradition, and there will be three games played in each round from now on.",
+      "type": "newLeague",
+      "tids": [
+        6
+      ],
+      "score": 200,
+      "season": 2005,
       "eid": 0
     }
   ],
@@ -43,7 +32,7 @@
     "allStarGame": null,
     "autoDeleteOldBoxScores": true,
     "blockFactor": 1,
-    "brotherRate": 0.02,
+    "brotherRate": 0.15,
     "budget": false,
     "challengeFiredLuxuryTax": false,
     "challengeFiredMissPlayoffs": false,
@@ -56,16 +45,16 @@
     "confs": [
       {
         "cid": 0,
-        "name": "Eastern Conference"
+        "name": "Big East"
       },
       {
         "cid": 1,
-        "name": "Western Conference"
+        "name": "West Side"
       }
     ],
     "daysLeft": 0,
-    "defaultStadiumCapacity": 25000,
-    "difficulty": 0,
+    "defaultStadiumCapacity": 0,
+    "difficulty": 3.5,
     "divs": [
       {
         "did": 0,
@@ -102,13 +91,13 @@
       18,
       18
     ],
-    "draftType": "random",
+    "draftType": "noLotteryReverse",
     "easyDifficultyInPast": false,
     "elam": false,
     "elamASG": false,
     "elamMinutes": 4,
     "elamPoints": 8,
-    "equalizeRegions": false,
+    "equalizeRegions": true,
     "expansionDraft": {
       "phase": "setup"
     },
@@ -121,12 +110,12 @@
       2
     ],
     "gameOver": false,
-    "godMode": true,
-    "godModeInPast": true,
+    "godMode": false,
+    "godModeInPast": false,
     "gracePeriodEnd": 2023,
     "hardCap": false,
     "homeCourtAdvantage": 3.5,
-    "injuryRate": 0.000125,
+    "injuryRate": 0.000325,
     "luxuryPayroll": 0,
     "luxuryTax": 0,
     "maxContract": 0,
@@ -137,25 +126,24 @@
     "minPayroll": 0,
     "minRosterSize": 5,
     "numDraftRounds": 4,
-    "numGames": 35,
+    "numGames": 36,
     "numGamesPlayoffSeries": [
-      {
-        "start": null,
-        "value": [
-          7,
-          7,
-          7,
-          7
-        ]
-      },
       {
         "start": 1998,
         "value": [
           1,
           1,
           1,
-          1,
           1
+        ]
+      },
+      {
+        "start": 2005,
+        "value": [
+          3,
+          3,
+          3,
+          3
         ]
       }
     ],
@@ -172,22 +160,22 @@
       }
     ],
     "numSeasonsFutureDraftPicks": 0,
-    "numTeams": 30,
+    "numTeams": 10,
     "orbFactor": 1.02,
-    "otherTeamsWantToHire": false,
+    "otherTeamsWantToHire": true,
     "otl": [
       {
         "start": null,
         "value": false
       }
     ],
-    "pace": 125,
-    "phase": 0,
+    "pace": 90,
+    "phase": 4,
     "playerBioInfo": {
       "default": {
         "fractionSkipCollege": 0,
         "colleges": {
-          "High School": 120
+          "High School": 1
         }
       }
     },
@@ -207,9 +195,9 @@
     "rookiesCanRefuse": false,
     "salaryCap": 0,
     "season": 1998,
-    "sonRate": 0.02,
+    "sonRate": 0.1,
     "spectator": false,
-    "startingSeason": 2021,
+    "startingSeason": 1998,
     "stealFactor": 1,
     "stopOnInjury": false,
     "stopOnInjuryGames": 20,
