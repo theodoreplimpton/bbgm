@@ -1,0 +1,19 @@
+{
+    "version": 43,
+    "gameAttributes": {
+        "playerBioInfo": {
+            "default": {
+                "fractionSkipCollege": 0,
+                "colleges": {
+                    "Middle School": 120
+            }
+        },                              
+        "phase": 0,
+        "daysLeft": 0,
+        "forceRetireAge": 18,
+        "numDraftRounds": 4,
+        "draftAges": [14,14],
+        "season": 1950
+        }  
+    }
+}
