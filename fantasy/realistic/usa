@@ -1,52 +1,11 @@
 ﻿{
-      "version": 43,
-      "meta": {
-            "phaseText": "1998 preseason",
-            "name": "League 22"
-      },
-      "events": [
-            {
-                  "text": "The year is 1999. You have to lead your team to dominate the NCAA Men's college tournament. Warning: This will be difficult. Good Luck!",
-                  "type": "newLeague",
-                  "tids": [6],
-                  "score": 200,
-                  "season": 1999,
-                  "eid": 0
-            },
-            {
-                  "text": "The elite heads of the NCAA have decided to abolish the one game playoff tradition, and there will be three games played in each round from now on.",
-                  "type": "changes",
-                  "tids": [6],
-                  "score": 200,
-                  "season": 2005,
-                  "eid": 0
-            }
-      ],
       "gameAttributes": {
-            "aiJerseyRetirement": true,
-            "aiTradesFactor": 0,
-            "allStarGame": null,
-            "autoDeleteOldBoxScores": true,
-            "blockFactor": 1,
-            "brotherRate": 0.15,
-            "budget": false,
-            "challengeFiredLuxuryTax": false,
-            "challengeFiredMissPlayoffs": false,
-            "challengeLoseBestPlayer": false,
-            "challengeNoDraftPicks": false,
-            "challengeNoFreeAgents": false,
-            "challengeNoRatings": false,
-            "challengeNoTrades": false,
-            "challengeThanosMode": false,
             "confs": [
                   {
                         "cid": 0,
                         "name": "USA"
                   }
             ],
-            "daysLeft": 0,
-            "defaultStadiumCapacity": 0,
-            "difficulty": 10.5,
             "divs": [
                   {
                         "did": 0,
@@ -64,126 +23,6 @@
                         "name": "States"
                   }
             ],
-            "draftAges": [18, 18],
-            "draftType": "noLotteryReverse",
-            "easyDifficultyInPast": false,
-            "elam": false,
-            "elamASG": false,
-            "elamMinutes": 4,
-            "elamPoints": 8,
-            "equalizeRegions": true,
-            "expansionDraft": {
-                  "phase": "setup"
-            },
-            "forceRetireAge": 22,
-            "foulRateFactor": 1,
-            "foulsNeededToFoulOut": 6,
-            "foulsUntilBonus": [5, 4, 2],
-            "gameOver": false,
-            "godMode": false,
-            "godModeInPast": false,
-            "gracePeriodEnd": 2023,
-            "hardCap": false,
-            "homeCourtAdvantage": 3.5,
-            "injuryRate": 0.000325,
-            "luxuryPayroll": 0,
-            "luxuryTax": 0,
-            "maxContract": 0,
-            "maxContractLength": 4,
-            "maxRosterSize": 20,
-            "minContract": 0,
-            "minContractLength": 4,
-            "minPayroll": 0,
-            "minRosterSize": 5,
-            "numDraftRounds": 4,
-            "numGames": 36,
-            "numGamesPlayoffSeries": [
-                  {
-                        "start": 1998,
-                        "value": [1, 1, 1, 1]
-                  },
-                  {
-                        "start": 2005,
-                        "value": [3, 3, 3, 3]
-                  }
-            ],
-            "numPeriods": 2,
-            "numPlayersOnCourt": 5,
-            "numPlayoffByes": [
-                  {
-                        "start": null,
-                        "value": 0
-                  },
-                  {
-                        "start": 1998,
-                        "value": 2
-                  }
-            ],
-            "numSeasonsFutureDraftPicks": 0,
-            "orbFactor": 1.02,
-            "otherTeamsWantToHire": true,
-            "otl": [
-                  {
-                        "start": null,
-                        "value": false
-                  }
-            ],
-            "pace": 90,
-            "phase": 4,
-            "playerBioInfo": {
-                  "default": {
-                        "fractionSkipCollege": 0,
-                        "colleges": {
-                              "High School": 1
-                        }
-                  }
-            },
-            "playerMoodTraits": false,
-            "playersRefuseToNegotiate": false,
-            "pointsFormula": [
-                  {
-                        "start": null,
-                        "value": ""
-                  }
-            ],
-            "quarterLength": 20,
-            "realPlayerDeterminism": 0,
-            "rookieContractLengths": [4],
-            "rookiesCanRefuse": false,
-            "salaryCap": 0,
-            "season": 1998,
-            "sonRate": 0.1,
-            "spectator": false,
-            "startingSeason": 1998,
-            "stealFactor": 1,
-            "stopOnInjury": false,
-            "stopOnInjuryGames": 20,
-            "threePointAccuracyFactor": 0.95,
-            "threePointTendencyFactor": 1.2,
-            "threePointers": true,
-            "tiebreakers": [
-                  {
-                        "start": null,
-                        "value": ["headToHeadRecord", "divWinner", "divRecordIfSame", "confRecordIfSame", "marginOfVictory", "coinFlip"]
-                  }
-            ],
-            "ties": [
-                  {
-                        "start": null,
-                        "value": false
-                  }
-            ],
-            "tradeDeadline": 0,
-            "tragicDeathRate": 0.0002,
-            "turnoverFactor": 1.05,
-            "twoPointAccuracyFactor": 0.95,
-            "userTid": [
-                  {
-                        "start": null,
-                        "value": 6
-                  }
-            ],
-            "userTids": [6],
             "teams": [
                   {
                         "abbrev": "CT",
